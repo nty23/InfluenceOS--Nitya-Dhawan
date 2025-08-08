@@ -1,0 +1,15 @@
+Flask
+flask-cors
+requests
+beautifulsoup4
+transformers
+torch
+diffusers
+huggingface-hub
+langchain
+langchain-community
+accelerate
+xformers
+praw
+gunicorn
+
