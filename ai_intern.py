@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1qhv1IyWViZ-yEzsI9rmnG6q7AGXaPg26
 """
 
-!pip install transformers accelerate bitsandbytes langchain langchain-community sentence-transformers diffusers requests beautifulsoup4 praw flask flask-cors pyngrok -q
 
 from pyngrok import ngrok
 ngrok.set_auth_token("***")
@@ -76,18 +75,18 @@ print("✅ All models loaded successfully!")
 # IMPORTANT: DO NOT share these with anyone. This is for your personal use.
 
 # Twitter API (You may need to uncomment and install the library)
-!pip install tweepy -q
+
 TWITTER_API_KEY = "***"
 TWITTER_API_SECRET = "***"
 TWITTER_ACCESS_TOKEN = "***"
 TWITTER_ACCESS_TOKEN_SECRET = "***"
 
 # Facebook API (You may need to uncomment and install the library)
-!pip install facebook-sdk -q
+
 FACEBOOK_ACCESS_TOKEN = "***"
 
 # Reddit API (You may need to uncomment and install the library)
-!pip install praw -q
+
 REDDIT_CLIENT_ID = "***"
 REDDIT_CLIENT_SECRET = "***"
 REDDIT_USERNAME = "***"
